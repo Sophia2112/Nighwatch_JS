@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="dragdrop"
+    errors="0" failures="0" hostname="" id="" package="dragdrop" skipped="0"
+    tests="1" time="44.96" timestamp="">
+  
+    <testcase name="DragDrop" classname="dragdrop" time="22.48" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

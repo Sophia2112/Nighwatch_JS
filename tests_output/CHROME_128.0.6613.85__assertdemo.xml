@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="0">
+
+  <testsuite name="assertdemo"
+    errors="0" failures="0" hostname="" id="" package="assertdemo" skipped="0"
+    tests="0" time="0.007000" timestamp="">
+  
+
+  
+    <system-err>
+       Error
+   Unknown property: &#34;endWIth&#34;. Please consult docs at: https://nightwatchjs.org/api/expect
+
+    Error location:
+    C:\Users\Dell\OneDrive\Documents\NightWatchTests\tests\expectApi.js:49
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     47 |         browser.pause(2000);
+     48 | 
+     49 |         browser.expect.title(&#34;#header_container &gt; div.header_secondary_container &gt; span&#34;).to.endWIth(&#34;Your Information&#34;); 
+     50 | 
+     51 |         browser.pause(2000);
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ ✖ NightwatchAssertError
+   Expected element &lt;#header_container &gt; div.primary_header &gt; div.header_label &gt; div&gt; to have value that contains: &#34;Swag Labs&#34; - value attribute was not found - expected &#34;contains &#39;Swag Labs&#39;&#34; but got: &#34;null&#34; (5275ms)
+
+    Error location:
+    C:\Users\Dell\OneDrive\Documents\NightWatchTests\tests\expectApi.js:22
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     20 |         //browser.pause(2000);
+     21 | 
+     22 |         browser.expect.element(&#34;#header_container &gt; div.primary_header &gt; div.header_label &gt; div&#34;).to.have.value.that.contains(&#34;Swag Labs&#34;); 
+     23 |         browser.pause(2000);
+     24 | 
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

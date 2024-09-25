@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="expectApi"
+    errors="1" failures="1" hostname="" id="" package="expectApi" skipped="0"
+    tests="1" time="1.000" timestamp="">
+  
+    <testcase name="Expect" classname="expectApi" time="0.4950" assertions="0">
+    <error type="error"><![CDATA[
+    Error: Unknown property: &#34;endWIth&#34;. Please consult docs at: https://nightwatchjs.org/api/expect
+    at Object.get (C:\Users\Dell\OneDrive\Documents\NightWatchTests\node_modules\chai-nightwatch\lib\chai\core\assertions.js:55:19)
+    at Object.Expect (C:\Users\Dell\OneDrive\Documents\NightWatchTests\tests\expectApi.js:49:93)
+    at Context.call (C:\Users\Dell\OneDrive\Documents\NightWatchTests\node_modules\nightwatch\lib\testsuite\context.js:515:35)
+    at TestCase.run (C:\Users\Dell\OneDrive\Documents\NightWatchTests\node_modules\nightwatch\lib\testsuite\testcase.js:58:31)
+    at Runnable.__runFn (C:\Users\Dell\OneDrive\Documents\NightWatchTests\node_modules\nightwatch\lib\testsuite\index.js:839:80)
+    at Runnable.run (C:\Users\Dell\OneDrive\Documents\NightWatchTests\node_modules\nightwatch\lib\testsuite\runnable.js:126:21)
+    at TestSuite.executeRunnable (C:\Users\Dell\OneDrive\Documents\NightWatchTests\node_modules\nightwatch\lib\testsuite\index.js:1000:49)
+    at TestSuite.handleRunnable (C:\Users\Dell\OneDrive\Documents\NightWatchTests\node_modules\nightwatch\lib\testsuite\index.js:1015:33)
+    at C:\Users\Dell\OneDrive\Documents\NightWatchTests\node_modules\nightwatch\lib\testsuite\index.js:839:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       Error
+   Unknown property: &#34;endWIth&#34;. Please consult docs at: https://nightwatchjs.org/api/expect
+
+    Error location:
+    C:\Users\Dell\OneDrive\Documents\NightWatchTests\tests\expectApi.js:49
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     47 |         browser.pause(2000);
+     48 | 
+     49 |         browser.expect.title(&#34;#header_container &gt; div.header_secondary_container &gt; span&#34;).to.endWIth(&#34;Your Information&#34;); 
+     50 | 
+     51 |         browser.pause(2000);
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ ✖ NightwatchAssertError
+   Expected element &lt;#header_container &gt; div.primary_header &gt; div.header_label &gt; div&gt; to have value that contains: &#34;Swag Labs&#34; - value attribute was not found - expected &#34;contains &#39;Swag Labs&#39;&#34; but got: &#34;null&#34; (5275ms)
+
+    Error location:
+    C:\Users\Dell\OneDrive\Documents\NightWatchTests\tests\expectApi.js:22
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     20 |         //browser.pause(2000);
+     21 | 
+     22 |         browser.expect.element(&#34;#header_container &gt; div.primary_header &gt; div.header_label &gt; div&#34;).to.have.value.that.contains(&#34;Swag Labs&#34;); 
+     23 |         browser.pause(2000);
+     24 | 
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="3"
+            failures="0"
+            tests="3">
+
+  <testsuite name="hrm"
+    errors="3" failures="0" hostname="" id="" package="hrm" skipped="0"
+    tests="3" time="54.21" timestamp="">
+  
+    <testcase name="Login" classname="hrm" time="12.07" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Info" classname="hrm" time="8.369" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Admin" classname="hrm" time="0.1250" assertions="0">
+    <error message="Unknown property: &#34;qual&#34;. Please consult docs at: https://nightwatchjs.org/api/expect" type="error"><![CDATA[
+    Error
+    at Page.newAdmin (C:\Users\Dell\OneDrive\Documents\NightWatchTests\pageObject\admin.js:10:10)
+    at Object.Admin (C:\Users\Dell\OneDrive\Documents\NightWatchTests\test\hrm.js:27:10)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       Error
+   Unknown property: &#34;qual&#34;. Please consult docs at: https://nightwatchjs.org/api/expect
+
+    Error location:
+    C:\Users\Dell\OneDrive\Documents\NightWatchTests\test\hrm.js:28
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     26 |         Admin
+     27 |         .newAdmin()
+     28 |         .expect.element(&#34;@pass&#34;).to.be.qual(&#34;@cpass&#34;) 
+     29 |     },
+     30 |     after: function(browser)
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ TimeoutError
+   An error occurred while running .setValue() command on &lt;Element [name=@admin]&gt;: element not interactable
+  (Session info: chrome=128.0.6613.114)
+    {&#34;error&#34;:{&#34;name&#34;:&#34;ElementNotInteractableError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Error location:
+    C:\Users\Dell\OneDrive\Documents\NightWatchTests\test\hrm.js:27
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     25 |         var Admin =browser.page.admin();
+     26 |         Admin
+     27 |         .newAdmin() 
+     28 |         .expect.element(&#34;@pass&#34;).to.be.qual(&#34;@cpass&#34;)
+     29 |     },
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An error occurred while running .setValue() command on &lt;status&gt;: Timed out while waiting for element &#34;status&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    C:\Users\Dell\OneDrive\Documents\NightWatchTests\test\hrm.js:27
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     25 |         var Admin =browser.page.admin();
+     26 |         Admin
+     27 |         .newAdmin() 
+     28 |         .expect.element(&#34;@pass&#34;).to.be.qual(&#34;@cpass&#34;)
+     29 |     },
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

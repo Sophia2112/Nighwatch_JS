@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="dnd1"
+    errors="0" failures="1" hostname="" id="" package="dnd1" skipped="0"
+    tests="1" time="27.05" timestamp="">
+  
+    <testcase name="Drag&amp;Drop" classname="dnd1" time="13.53" assertions="2">
+
+      <failure message="Testing if element &lt;#trash &gt; ul &gt; li &gt; img&gt; contains text &#39;#gallery &gt; li:nth-child(1) &gt; img&#39; in 5000ms - expected &#34;contains text &#39;#gallery &gt; li:nth-child(1) &gt; img&#39;&#34; but got: &#34;element could not be located&#34; (5239ms)">    at Drag&amp;Drop (C:\Users\Dell\OneDrive\Documents\NightWatchTests\tests\dnd1.js:10:17)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

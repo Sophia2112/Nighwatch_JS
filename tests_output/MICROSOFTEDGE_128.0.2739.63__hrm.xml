@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="hrm"
+    errors="0" failures="0" hostname="" id="" package="hrm" skipped="0"
+    tests="2" time="26.79" timestamp="">
+  
+    <testcase name="Login" classname="hrm" time="6.186" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Info" classname="hrm" time="7.126" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
